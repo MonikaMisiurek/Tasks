@@ -1,0 +1,13 @@
+- double-ended queue
+- umożliwia dodawanie i odejmowanie elementów zarówno z początki i z końca kolejki
+-rozszerza Queue
+- najczęściej wykorzystywane implementacjr: Deque, ArrayDeque, LinkedList
+-metody:
+> addFirst(e) i offerFirst(e) - dodają element na początek kolejki
+> addLast(e) i offerLast(e) - dodają elementy na koniec kolejki
+> removeFirst() i pollFirst()- usuwają element z początki kolejki
+> getLast() i peekLast() - pobierają element z końca kolejki
+> getFirst() i peekLFirst() - pobierają element z początku kolejki
+
+- add, remove, get -> rzucają wyjątkiem
+- offer, poll, peek -> zwracają null / false w razie niepowodzenia
