@@ -1,8 +1,8 @@
 package Task4;
 
 public class Point2D {
-    float x;
-    float y;
+    public float x;
+    public float y;
 
     public Point2D(float x, float y) {
         this.x = x;
