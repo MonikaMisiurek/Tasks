@@ -1,0 +1,23 @@
+- dane w postaci klucz- wartość
+- jeden klucz może zawierać dokładnie jedną wartość
+- metody:
+> put - dodanie pary do kolekcji lub zastąpienie starej nową
+> remove - usuwa elementy na podstawie klucza ( lub dodatkowo wartości)
+> get - pobieranie wartości na podstawie klucza
+> containsKey - zwraca informacja czy istnieje wartość dla podanego klucza
+> containsValue - czy istnieje klucz dla podajenj wartości
+> size - zwraca ilość par
+> isEmpty - czy mapa jest pusta
+- null może być kluczem w mapie
+> keySet - zwraca zbiór kluczy jako Set
+> entrySet: zwraca Set obiektów klucz-wartość, pojedyncza para jest reprezentowana przez klasę wewnętrzną Map.Entry
+> values- zwraca wszystkie wartości jako Collection
+
+HashMap
+- kolejność par nie jest zachowan
+
+TreeMap
+- kolejność par zachowana według kolejności naturalnej kluczy lub pewnego Comparatora kluczy
+
+LinkedHashMap
+- zachowuje informację o kolejności dodawania poszczególnych elementów

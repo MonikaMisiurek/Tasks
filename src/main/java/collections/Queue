@@ -1,0 +1,10 @@
+- generyczny interfejs - reprezentuje strukturę danych
+- umozliwia implementację kolejek FIFO (obsługa z początku) i LIFO (obsługa z końca)
+-operacje manipulacji danymi:
+> element() - zwraca element z czoła kolejki (nie usuwa go ze struktury) może rzucić wyjątek - NoSuchElementException w przypadku pustej kolejki
+> peek() - działa identycznie jak metoda element, ale nie rzuca wyjątkiem
+> offer() - dodaje element do kolejki i informuje czy operacja się udała
+> remove()- usuwa element z początku kolejki i zwraca jego wartość lub rzuca wyjątek NoSuchElementException
+>poll() - działą jak remove, ale nie rzuca wyjątkiem
+
+- podstawową implementacją kolejki jest LinkedLIst

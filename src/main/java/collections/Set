@@ -1,0 +1,16 @@
+- generyczna struktura danych odpowiedzialna za przechowywanie uniaklnych elementów
+- korzysta tylko i wyłącznie z metod interfejsu Collection
+- wprowadza silne połączenie pomiędzy metodami equals i hashCode
+- istnieją trzy podstawowe implementacje: HashSet, TreeSet, LinkedHashSet
+
+- HashSet:
+1. kolejność elementów nie jest zachowana
+2. przechowuje elementy w tablicy hashującej
+
+-TreeSet:
+1. kolejność elementów jest zachowana według kolejności naturalnej lub według pewnego Comparatora
+2. przechowuje dane w drzewie czerwono-czarnym
+
+-LinkedHashSet:
+1.zachowuje informacje o kolejności dodawania poszczególnych elementów
+2. implementacja oparta jest o tablice hashującą wraz z obsługą linked list
