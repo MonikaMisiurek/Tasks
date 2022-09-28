@@ -9,7 +9,7 @@ public class Driver {
     public static void main(String[] args) {
 
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbctest?serverTimezone=UTC", "root", "LoveKrowe12");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbctest?serverTimezone=UTC", "root", "***");
 
             Statement statement = connection.createStatement();
 
